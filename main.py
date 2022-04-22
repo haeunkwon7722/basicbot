@@ -4,7 +4,7 @@ from discord.ext import commands
 
 @bot.event
 async def on_ready():
-    await bot.change_presence(status=discord.Status.idle,activity=discord.Game('록시야 도움말'))
+    await bot.change_presence(status=discord.Status.idle,activity=discord.Game('I'm testing))
     print(str(len(bot.guilds)))
     print('Hello World!')
     
